@@ -1,10 +1,10 @@
 * {
-    font-family: "Karla", sans-serif;
+    font-family: "source code pro", monospace;
+    
 }
 
 body {
     padding: 50px;
-    font-size: 22px;
     color: #777;
     background: white;
 }
@@ -16,8 +16,8 @@ a {
 }
 
 h1,
-h2 {
-    font-weight: 300;
+h2,strong {
+    font-weight: 700;
 }
 
 #cdn-files,
@@ -27,9 +27,6 @@ h2 {
     line-height: 20px;
 }
 
-#ascii-intro {
-    font-size: 12px
-}
 
 a {
     text-decoration: none
@@ -42,4 +39,7 @@ a:hover {
 
 .footer-links a {
     margin-bottom: 25px
+}
+.emph{
+    text-decoration:underline;
 }
