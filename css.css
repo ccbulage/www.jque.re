@@ -35,7 +35,7 @@ details summary a:visited{
     -webit-box-shadow: 0 0 2px #ccc;
 }
 ::-webkit-scrollbar-thumb {
-    background: #ffc600;
+    background: #EA4C88;/* main color */
 }
 ::-webkit-scrollbar-thumb:window-inactive {
     background: #bbb;
