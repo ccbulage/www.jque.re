@@ -26,5 +26,5 @@ document.getElementById("loadCDN").addEventListener("click", function(e) {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-
+document.getElementById('ascii-intro').innerHTML = linkify(document.getElementById('ascii-intro').innerHTML);
 });

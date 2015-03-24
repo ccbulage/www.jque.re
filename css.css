@@ -20,7 +20,7 @@ summary {
 }
 summary:hover,
 summary:focus {
-    background: #ddd;
+    background: red;
 }
 details summary a:visited{
     color: red

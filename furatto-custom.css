@@ -1,3 +1,9 @@
+/*
+MENU COLOR LEGEND
+DARK: #EA4C88
+HOVER: #ef73a2
+OPENED: #fac4d9
+*/
 .meteocon:before {
     font-family: 'MeteoconsRegular';
     content: attr(data-meteocon);
@@ -2628,15 +2634,15 @@ hr {
     margin-right: 5px;
 }
 .btn-primary {
-    background-color: #2980b9;
+    background-color: #EA4C88;
 }
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #3498db;
+    background-color: #ef73a2;
 }
 .btn-primary.disabled,
 .btn-primary[disabled] {
-    background-color: #2980b9;
+    background-color: #EA4C88;
 }
 .btn-success {
     background-color: #27ae60;
@@ -2661,7 +2667,7 @@ hr {
     background-color: #c0392b;
 }
 .btn-warning {
-    background-color: #f39c12;
+    background-color: #fac4d9;
 }
 .btn-warning:hover,
 .btn-warning:focus {
@@ -2669,7 +2675,7 @@ hr {
 }
 .btn-warning.disabled,
 .btn-warning[disabled] {
-    background-color: #f39c12;
+    background-color: #fac4d9;
 }
 .btn-inverse {
     background-color: #2c3e50;
@@ -2774,7 +2780,7 @@ hr {
 }
 .label-primary,
 .badge-primary {
-    background-color: #2980b9;
+    background-color: #EA4C88;
 }
 .label-success,
 .badge-success {
@@ -2786,7 +2792,7 @@ hr {
 }
 .label-warning,
 .badge-warning {
-    background-color: #f39c12;
+    background-color: #fac4d9;
 }
 .label-inverse,
 .badge-inverse {
@@ -2841,7 +2847,7 @@ a.label:focus {
     top: -2px;
     right: -21px;
     line-height: 20px;
-    color: #f39c12;
+    color: #fac4d9;
     float: right;
     border: none;
     background: none;
@@ -2860,7 +2866,7 @@ a.label:focus {
     color: #27ae60;
 }
 .alert-info {
-    background-color: #3498db;
+    background-color: #;
     color: #195999;
 }
 .alert-info .header,
@@ -2868,7 +2874,7 @@ a.label:focus {
     color: #195999;
 }
 .alert-info .close {
-    color: #2980b9;
+    color: #EA4C88;
 }
 .alert-danger {
     background-color: #e74c3c;
@@ -2927,7 +2933,7 @@ a.label:focus {
 .nav-list>.active>a:focus {
     color: #fff;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-    background-color: #3498db;
+    background-color: #ef73a2;
 }
 .nav-list[class^="icon_"],
 .nav-list[class*=" icon_"] {
@@ -3115,14 +3121,14 @@ a.label:focus {
     display: block;
 }
 .vrt-navbar li:hover {
-    background: #3498db;
+    background: #ef73a2;
 }
 .vrt-navbar li:hover a,
 .vrt-navbar li:hover[class*='icon']:before {
     color: #fff;
 }
 .vrt-navbar li.active {
-    border-right: 3px solid #3498db;
+    border-right: 3px solid #ef73a2;
 }
 form {
     margin: 0 0 20px;
@@ -3320,8 +3326,8 @@ textarea[disabled] {
 .info input[type="search"],
 .info input[type="tel"],
 .info input[type="color"] {
-    color: #2980b9;
-    border: 1px solid #2980b9;
+    color: #EA4C88;
+    border: 1px solid #EA4C88;
 }
 .success textarea,
 .success input[type="text"],
@@ -3356,8 +3362,8 @@ textarea[disabled] {
 .warning input[type="search"],
 .warning input[type="tel"],
 .warning input[type="color"] {
-    color: #f39c12;
-    border: 1px solid #f39c12;
+    color: #fac4d9;
+    border: 1px solid #fac4d9;
 }
 .error textarea,
 .error input[type="text"],
@@ -4744,7 +4750,7 @@ pre .support {
 pre .string,
 pre .support.value {
     font-weight: normal;
-    color: #2980b9;
+    color: #EA4C88;
 }
 p {
     margin: 0 0 10px;
@@ -4763,7 +4769,7 @@ em {
     color: #ecf0f1;
 }
 .text-warning {
-    color: #f39c12;
+    color: #fac4d9;
 }
 .text-error {
     color: #c0392b;
@@ -4772,7 +4778,7 @@ em {
     color: #27ae60;
 }
 .text-info {
-    color: #2980b9;
+    color: #EA4C88;
 }
 .text-left {
     text-align: left;
@@ -4893,7 +4899,7 @@ ol.inline li a:hover {
     background: #1abc9c;
 }
 .color-list>li.blue {
-    background: #3498db;
+    background: #ef73a2;
 }
 .color-list>li.aero {
     background: #9cc2cb;
@@ -4928,13 +4934,13 @@ dd {
     text-align: right;
 }
 .info {
-    color: #2980b9;
+    color: #EA4C88;
 }
 .success {
     color: #27ae60;
 }
 .warning {
-    color: #f39c12;
+    color: #fac4d9;
 }
 .error {
     color: #c0392b;
@@ -5084,8 +5090,8 @@ i.nomargin {
 }
 .pagination ul>li.active>a,
 .pagination ul>li.active>span {
-    background-color: #2980b9;
-    border-color: #2980b9;
+    background-color: #EA4C88;
+    border-color: #EA4C88;
     border-width: 2px;
     color: #fff;
     margin: 10px 5px 9px;
@@ -5095,8 +5101,8 @@ i.nomargin {
 .pagination ul>li.active>a:focus,
 .pagination ul>li.active>span:hover,
 .pagination ul>li.active>span:focus {
-    background-color: #2980b9;
-    border-color: #2980b9;
+    background-color: #EA4C88;
+    border-color: #EA4C88;
     color: #fff;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -5120,8 +5126,8 @@ i.nomargin {
 .pagination ul>li>a:focus,
 .pagination ul>li>span:hover,
 .pagination ul>li>span:focus {
-    background-color: #2980b9;
-    border-color: #2980b9;
+    background-color: #EA4C88;
+    border-color: #EA4C88;
     color: #fff;
     -webkit-transition: background 0.2s ease-out, border-color 0.2s ease-out, color 0.2s ease-out;
     -moz-transition: background 0.2s ease-out, border-color 0.2s ease-out, color 0.2s ease-out;
@@ -5273,7 +5279,7 @@ i.nomargin {
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
     border-radius: 2px;
-    background: #2980b9;
+    background: #EA4C88;
     color: #fff;
     cursor: pointer;
     margin-right: 5px;
@@ -5358,7 +5364,7 @@ i.nomargin {
     transition: 0.25s;
 }
 .tagsinput-add:hover {
-    background-color: #2980b9;
+    background-color: #EA4C88;
     color: #FFF;
 }
 .tags_clear {
