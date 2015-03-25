@@ -36,4 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
 			return !window.open(this);
 		};
 
+	document.getElementById('loadCDN').setAttribute('target', '_self');
+
 });
