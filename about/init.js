@@ -27,19 +27,17 @@ document.getElementById("loadCDN").addEventListener("click", function (e) {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    document.getElementById('ascii-intro').innerHTML = linkify(document.getElementById('ascii-intro').innerHTML);
+        document.getElementById('ascii-intro').innerHTML = linkify(document.getElementById('ascii-intro').innerHTML);
 
-    var anchors = document.getElementsByTagName('a');
+        var anchors = document.getElementsByTagName('a');
 
-    for (var i in anchors) {
-    
-        anchors[i].onclick = function () {
-            
-            if(!this.id.match('loadCDN'))
-            
-            return !window.open(this);
-        };
-}
-}
+        for (var i in anchors) {
 
-});
+            anchors[i].onclick = function () {
+
+                return !window.open(this);
+            };
+        }
+    }
+
+);
