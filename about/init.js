@@ -32,11 +32,14 @@ document.addEventListener("DOMContentLoaded", function () {
     var anchors = document.getElementsByTagName('a');
 
     for (var i in anchors) {
-    if (!anchors[i].getAttribute('id').match('loadCDN')) {
+    
         anchors[i].onclick = function () {
+            
+            if(!this.id.match('loadCDN'))
+            
             return !window.open(this);
         };
-    }
+}
 }
 
 });
