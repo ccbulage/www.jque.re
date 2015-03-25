@@ -31,11 +31,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	var anchors = document.getElementsByTagName('a');
 
-	for (var i in anchors)
+	for (var i in anchors) {}
+	if (!anchors[i].getAttribute('id').match('loadCDN')) {
 		anchors[i].onclick = function () {
 			return !window.open(this);
 		};
+	}
+}
 
-	document.getElementById('loadCDN').setAttribute('target', '_self');
-
-});
+	});
