@@ -12,8 +12,7 @@ html {
 details,
 summary {
     display: block;
-    border-top: 1px solid #7fdcff;
-    border-right: 1px solid #7fdcff;
+    border-top: 1px solid #000;
     padding: 1em;
     text-transform: uppercase;
 }
@@ -44,7 +43,7 @@ details summary a:visited {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #EA4C88;
+    background: #000;
     /* main color */
 }
 
