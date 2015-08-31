@@ -32,16 +32,11 @@ You might want to read the blogpost concerning this repo, and the reasoning behi
 
 I hope you enjoy browsing through the list on the left, and remember, you can Download all these plugins as a bundle from our CDN. We encourage you to link remotely to any file hosted on our CDN.
 
-Below is a list of CDN URLs you should use if you're going to implement a plugin on your site. We are on a dedicated [MaxCDN](http://maxcdn.com/) setup so all JS is Gzipped and served from 16 "edge locations" from around the world for peace of mind.
+Below is a list of CDN URLs you should use if you're going to implement a plugin on your site. We are on a dedicated [MaxCDN](https://www.maxcdn.com/) setup so all JS is Gzipped and served from 16 "edge locations" from around the world for peace of mind.
 
 [![...](http://f.cl.ly/items/3K2u0N3Z2y1U341r1i1m/maxcdn.png "...")](http://maxcdn.com/)
 
-Many thanks to [MaxCDN](http://maxcdn.com/) for making this project possible.
-
-[![...](http://f.cl.ly/items/42161a2n23111o2F2O0t/tip.png "Fund me on Gittip")](https://www.gittip.com/SoHiggo/)
-
-
-###[Donate - gittip.com/SoHiggo](https://www.gittip.com/SoHiggo/)
+Many thanks to [MaxCDN](https://www.maxcdn.com/) for making this project possible.
 
 - [higg.im](http://www.higg.im/)
 - [higg.tel](http://higg.tel/)
